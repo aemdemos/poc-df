@@ -206,7 +206,7 @@
     ]
   },
   {
-    "id": "columns-intro",
+    "id": "columns-reveal",
     "fields": [
       {
         "component": "text",
@@ -225,26 +225,7 @@
     ]
   },
   {
-    "id": "columns-pillars",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
-      }
-    ]
-  },
-  {
-    "id": "columns-slide-in",
+    "id": "columns-stack",
     "fields": [
       {
         "component": "text",

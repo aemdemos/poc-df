@@ -175,8 +175,8 @@
           }
         },
         {
-          "title": "Columns Intro",
-          "id": "columns-intro",
+          "title": "Columns Reveal",
+          "id": "columns-reveal",
           "plugins": {
             "xwalk": {
               "page": {
@@ -190,23 +190,8 @@
           }
         },
         {
-          "title": "Columns Pillars",
-          "id": "columns-pillars",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/columns/v1/columns",
-                "template": {
-                  "columns": "2",
-                  "rows": "1"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Columns Slide In",
-          "id": "columns-slide-in",
+          "title": "Columns Stack",
+          "id": "columns-stack",
           "plugins": {
             "xwalk": {
               "page": {
