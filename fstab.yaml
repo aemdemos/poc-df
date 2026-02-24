@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p130360-e1585120.adobeaemcloud.com/bin/franklin.delivery/aemdemos/poc-dh/main"
+    url: "https://author-p130360-e1585120.adobeaemcloud.com/bin/franklin.delivery/aemdemos/poc-df/main"
     type: "markup"
     suffix: ".html"
