@@ -43,7 +43,7 @@
     "id": "title",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "name": "title",
         "label": "Title"
       },
@@ -206,6 +206,63 @@
     ]
   },
   {
+    "id": "columns-intro",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "columns-pillars",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "columns-slide-in",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -313,6 +370,32 @@
         "component": "text",
         "name": "linkText",
         "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "quote-testimonial",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quotation",
+        "value": "",
+        "label": "Quotation"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "authorImage",
+        "value": "",
+        "label": "Author Image"
+      },
+      {
+        "component": "richtext",
+        "name": "attribution",
+        "value": "",
+        "label": "Attribution",
+        "valueType": "string"
       }
     ]
   },
