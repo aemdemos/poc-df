@@ -207,39 +207,61 @@
   },
   {
     "id": "columns-reveal",
+    "fields": []
+  },
+  {
+    "id": "column",
     "fields": [
       {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
       },
       {
         "component": "text",
-        "valueType": "number",
-        "name": "rows",
+        "valueType": "string",
+        "name": "imageAlt",
         "value": "",
-        "label": "Rows"
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
   {
     "id": "columns-stack",
+    "fields": []
+  },
+  {
+    "id": "column",
     "fields": [
       {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
       },
       {
         "component": "text",
-        "valueType": "number",
-        "name": "rows",
+        "valueType": "string",
+        "name": "imageAlt",
         "value": "",
-        "label": "Rows"
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },

@@ -184,8 +184,22 @@
                 "template": {
                   "name": "Columns Reveal",
                   "model": "columns-reveal",
-                  "columns": "2",
-                  "rows": "1"
+                  "filter": "columns-reveal"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Column",
+          "id": "column",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Column",
+                  "model": "column"
                 }
               }
             }
@@ -201,8 +215,22 @@
                 "template": {
                   "name": "Columns Stack",
                   "model": "columns-stack",
-                  "columns": "2",
-                  "rows": "1"
+                  "filter": "columns-stack"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Column",
+          "id": "column",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Column",
+                  "model": "column"
                 }
               }
             }
