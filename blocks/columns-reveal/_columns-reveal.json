@@ -1,0 +1,75 @@
+{
+  "definitions": [
+    {
+      "title": "Columns Reveal",
+      "id": "columns-reveal",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Columns Reveal",
+              "model": "columns-reveal",
+              "filter": "columns-reveal"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Column",
+      "id": "column",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Column",
+              "model": "column"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-reveal",
+      "fields": []
+    },
+    {
+      "id": "column",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "value": "",
+          "label": "Alt Text"
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-reveal",
+      "components": [
+        "column"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,22 @@
 /* stylelint-disable max-line-length */
+
+/* DenimINK fonts (Verdeya brand) */
+@font-face {
+  font-family: DenimInk;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/DenimINK-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: DenimInk;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/DenimINK-Regular.woff2') format('woff2');
+}
+
 @font-face {
   font-family: roboto-condensed;
   font-style: normal;

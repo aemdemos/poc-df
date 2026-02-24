@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.verdeyalife.com/",
+  "path": "index",
+  "timestamp": "2026-02-23T16:04:07.844Z",
+  "title": "Verdeya",
+  "template": "homepage",
+  "blocks": [
+    "columns-intro",
+    "columns-pillars",
+    "quote-testimonial"
+  ]
+}

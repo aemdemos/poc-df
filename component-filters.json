@@ -46,6 +46,18 @@
     ]
   },
   {
+    "id": "columns-reveal",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "columns-stack",
+    "components": [
+      "column"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
