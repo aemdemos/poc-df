@@ -1,0 +1,12 @@
+{
+    "mappings": [
+      "/content/dfink-xw-pmi-poc/:/",
+      "/content/dfink-xw-pmi-poc/configuration:/.helix/config.json",
+      "/content/dfink-xw-pmi-poc/metadata:/metadata.json",
+      "/content/dfink-xw-pmi-poc/placeholders:/placeholders.json",
+      "/content/dfink-xw-pmi-poc/redirects:/redirects.json"
+    ],
+    "includes": [
+      "/content/dfink-xw-pmi-poc/"
+    ]
+  }
