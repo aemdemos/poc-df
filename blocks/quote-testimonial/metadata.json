@@ -1,0 +1,39 @@
+{
+  "variantName": "quote-testimonial",
+  "baseBlock": "quote",
+  "version": "1.0.0",
+  "created": "2026-02-20T21:59:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.verdeyalife.com/",
+    "originPage": "Verdeya Life homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "quote icon + testimonial text + author photo + name + role",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "testimonial sections with author attribution",
+      "quote sections with photo and role",
+      "single-quote displays with attribution"
+    ],
+    "notSuitableFor": [
+      "simple pull quotes without attribution",
+      "multi-testimonial carousels",
+      "review or rating sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-20T21:59:00.000Z"
+  }
+}

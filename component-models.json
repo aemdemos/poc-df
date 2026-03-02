@@ -43,7 +43,7 @@
     "id": "title",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "name": "title",
         "label": "Title"
       },
@@ -206,6 +206,66 @@
     ]
   },
   {
+    "id": "columns-reveal",
+    "fields": []
+  },
+  {
+    "id": "column",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "columns-stack",
+    "fields": []
+  },
+  {
+    "id": "column",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -313,6 +373,32 @@
         "component": "text",
         "name": "linkText",
         "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "quote-testimonial",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quotation",
+        "value": "",
+        "label": "Quotation"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "authorImage",
+        "value": "",
+        "label": "Author Image"
+      },
+      {
+        "component": "richtext",
+        "name": "attribution",
+        "value": "",
+        "label": "Attribution",
+        "valueType": "string"
       }
     ]
   },

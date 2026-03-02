@@ -18,11 +18,13 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --overlay-background-color:lightgrey;
+  --overlay-background-color: lightgrey;
+  --brown: #2E0015;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --heading-font-family-display: denimink, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -121,7 +123,16 @@ h6 {
   scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
+h1 {
+  font-family: var(--heading-font-family-display);
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  color: var(--brown);
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 75%;
+}
 h2 { font-size: var(--heading-font-size-xl); }
 h3 { font-size: var(--heading-font-size-l); }
 h4 { font-size: var(--heading-font-size-m); }
@@ -249,6 +260,8 @@ main > .section > div {
 
 main > .section:first-of-type {
   margin-top: 0;
+  position: relative;
+  padding: 4.5rem 0;
 }
 
 @media (width >= 900px) {
@@ -263,4 +276,52 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* ---- H1 global styling ---- */
+
+/* Animations */
+@keyframes underline-grow {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1 strong {
+  font-family: var(--heading-font-family-display);
+  font-weight: 400;
+}
+
+@media (width >= 900px) {
+  h1 {
+    font-size: 90px;
+  }
+}
+
+/* Bottom border - animated line below the hero */
+main > .section:first-of-type::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background-color: var(--brown);
+  animation: underline-grow 1.5s linear forwards;
+}
+
+/* H1 fade-in-bottom animation */
+main > .section:first-of-type h1 {
+  animation: fade-in-bottom 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s both;
 }

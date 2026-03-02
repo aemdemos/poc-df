@@ -1,0 +1,73 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.verdeyalife.com/"
+      ],
+      "description": "Verdeya Life homepage - main landing page",
+      "blocks": [
+        {
+          "name": "columns-intro",
+          "instances": [
+            ".intro-section.homepage-intro"
+          ]
+        },
+        {
+          "name": "columns-pillars",
+          "instances": [
+            ".blocks-section.l-50-50"
+          ]
+        },
+        {
+          "name": "quote-testimonial",
+          "instances": [
+            ".testimonials-carousel"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "header.entry-header",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "h1.entry-title"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "About Intro",
+          "selector": ".homepage-intro-pin-wrapper",
+          "style": "lavender",
+          "blocks": [
+            "columns-intro"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Science Pillars",
+          "selector": ".blocks-section.l-50-50",
+          "style": null,
+          "blocks": [
+            "columns-pillars"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Testimonial",
+          "selector": ".testimonials-carousel",
+          "style": null,
+          "blocks": [
+            "quote-testimonial"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}
